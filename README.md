@@ -39,7 +39,7 @@ Environment-based configuration
    cd resident-card-api
    
    cd frontend
-   npm i dev
+   npm run dev
 
    cd backend 
    npm run start
