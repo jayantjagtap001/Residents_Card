@@ -7,12 +7,7 @@ const port=process.env.PORT || 9090;
 const app = express();
 app.use(express.json());
 dotenv.config();
-app.use(
-  cors({
-    origin: "http://localhost:5173",
-    credentials: true,
-  })
-);
+app.use(cors())
 
 
 const db = async () => {
