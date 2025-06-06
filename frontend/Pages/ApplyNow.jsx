@@ -4,7 +4,7 @@ import Form from "../Components/Form";
 function ApplyNow() {
   return (
     <div>
-      <h2 style={{display:"flex",alignItems:"center",justifyContent:"center"}}>Apply Now</h2>
+      <h2 style={{display:"flex",alignItems:"center",justifyContent:"center"}}>Add Resident</h2>
       <Form/>
       <Card/>
     </div>

@@ -15,7 +15,7 @@ function Header() {
         return <Home />;
       case "AboutUs":
         return <AboutUs />;
-      case "ApplyNow":
+      case "Add Resident":
         return <ApplyNow />;
       case "Donate":
         return <Donate />;
@@ -81,11 +81,11 @@ function Header() {
             background: isHovered ? "white" : "black",
             transition: "all 0.3s",
           }}
-          onClick={() => setActive("ApplyNow")}
+          onClick={() => setActive("Add Resident")}
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
-          Apply Now
+          Add Resident
         </button>
         <button
           style={{

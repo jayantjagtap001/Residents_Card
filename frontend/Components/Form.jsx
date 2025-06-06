@@ -42,7 +42,6 @@ function Form() {
 
   return (
     <div>
-      <h1 style={{display:"flex",alignItems:"center",justifyContent:"center"}}>Fill the form </h1>
       <form action="" onSubmit={handleTheData}>
         <input type="text" name="First_Name" placeholder="Enter Your FirstName" onChange={handleAddData} />
         <input type="text" name="Last_Name" placeholder="Enter Your LastName" onChange={handleAddData}/>
